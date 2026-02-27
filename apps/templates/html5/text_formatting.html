@@ -1,7 +1,24 @@
-<h1>Example of Formatting tags</h1>
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML5 Links</title>
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
+</head>
+<body>
 
-<p><b>Bold</b></p>
-<p><i>Italic</i></p>
-<p><u>Underline</u></p>
-<p><mark>Marked</mark></p>
-<p><small>Small</small></p>
+<h1 class="formating-title">Examples of Formatting tags</h1>
+
+<p>This text has <b>subtext</b> using b tag</p>
+<p>This text has <strong>subtext</strong> using strong tag</p>
+<p>This text has <i>subtext</i> using i tag</p>
+<p>This text has <em>subtext</em> using emphasize tag</p>
+<p>This text has <small>subtext</small> using small tag</p>
+<p>This text has <mark>subtext</mark> using mark tag</p>
+<p>This text has <del>subtext</del> using del tag</p>
+<p>This text has <ins>subtext</ins> using ins tag</p>
+<p>This text has X<sub>subtext</sub> using sub tag</p>
+<p>This text has X<sup>subtext</sup> using sup tag</p>
+
+</body>
+</html>

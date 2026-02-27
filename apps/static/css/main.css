@@ -1,0 +1,92 @@
+#links-title {
+    text-align: center;
+    padding: 20px;
+}
+
+.links-box a {
+    display: block;
+    padding: 15px;
+    text-align: center;
+    text-decoration: underline; 
+}
+
+.link1 {
+    background-color: lightgreen;
+    color: red;
+}
+
+.link2 {
+    background-color: gray;
+    color: yellow;
+}
+
+.link3 {
+    background-color: black;
+    color: white;
+}
+
+.formating-title{
+    background-color: rgb(247, 247, 174);
+    color: green;
+}
+
+.listing-title{
+    background-color:rgb(0, 158, 158);
+    color: white;
+}
+
+.tables-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+}
+
+.cap-table1{
+    font-weight: bold;
+}
+
+.table1, th, td{
+    text-align: center;
+    border: 1px solid black;
+}
+
+.total-row{
+    font-weight: bold;
+}
+
+.table2 {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin-top: 20px;
+}
+
+.table2 caption {
+    text-align: center;
+    margin-bottom: 5px;
+    font-weight: normal;
+}
+
+.table2 th, .table2 td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    empty-cells: show; 
+}
+
+.image-cell {
+    padding: 0;
+    width: 30%;
+}
+
+.image-cell img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.table2 tbody td:first-child {
+    font-weight: bold;
+}

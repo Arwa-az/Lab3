@@ -15,31 +15,3 @@
     color: #008cba;
   }
 }
-
-#main-title {
-  text-align: center;
-  color: white;
-  background-color: darkblue;
-  padding: 20px;
-}
-
-.custom-link {
-  display: block;
-  padding: 10px;
-  text-align: center;
-  background-color: lightgray;
-  text-decoration: none;
-}
-
-.custom-link:hover {
-  background-color: blue;
-  color: white;
-}
-
-.custom-link:visited {
-  color: purple;
-}
-
-.custom-link:active {
-  background-color: red;
-}
