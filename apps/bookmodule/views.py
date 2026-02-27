@@ -1,5 +1,4 @@
 from django.shortcuts import render
-from django.shortcuts import render
 from django.http import HttpResponse
 
 def index(request): 
@@ -33,3 +32,15 @@ def viewbook(request, bookId):
     return render(request, 'bookmodule/one_book.html')
 def aboutus(request):
     return render(request, 'bookmodule/aboutus.html')
+
+def html5_links(request):
+    return render(request, 'html5/links.html')
+
+def html5_text_formatting(request):
+    return render(request, 'html5/text_formatting.html')
+
+def html5_listing(request):
+    return render(request, 'html5/listing.html')
+
+def html5_tables(request):
+    return render(request, 'html5/tables.html')
